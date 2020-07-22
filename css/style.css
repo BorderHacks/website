@@ -2224,7 +2224,7 @@ fieldset:disabled a.btn {
   background-image: none;
   border-color: rgb(25,140,201); }
   .btn-outline-primary:hover {
-    color: #212529;
+    color: white;
     background-color: rgb(25,140,201);
     border-color: rgb(25,140,201); }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2235,7 +2235,7 @@ fieldset:disabled a.btn {
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
-    color: #212529;
+    color: white;
     background-color: rgb(25,140,201);
     border-color: rgb(25,140,201); }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
