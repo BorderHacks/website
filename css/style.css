@@ -12,7 +12,7 @@
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: #24b96a; 
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -37,8 +37,13 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;  
   box-sizing: border-box; }
+
+
+  .logo-main {
+    color: #24b96a !important;
+  }
 
 html {
   font-family: sans-serif;
@@ -60,9 +65,10 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fffafa !important;
+ }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -469,7 +475,7 @@ pre {
   @media (min-width: 992px) {
     .container {
       max-width: 960px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1450px) {
     .container {
       max-width: 1140px; } }
 
@@ -7503,7 +7509,7 @@ h1, h2, h3, h4, h5,
   color: rgb(25,140,201);
   line-height: 1.2;
   font-weight: 200;
-  background: rgb(25,140,201);
+  background: #24b96a;
   background: -moz-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
   background: -webkit-gradient(left bottom, right top, color-stop(0%, #6b75ff), color-stop(0%, #6b75ff), color-stop(100%, #59b7ff));
   /* background: -webkit-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%); */
@@ -7514,6 +7520,10 @@ h1, h2, h3, h4, h5,
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
   @media (max-width: 991.98px) {
+    .hero-wrap {
+      background-image: url("https://i.imgur.com/n9FLlLb.png") !important;
+      background-size: contain;
+    }
     .slider-text h1 {
       font-size: 40px; 
       /* color:green; */
@@ -7523,10 +7533,10 @@ h1, h2, h3, h4, h5,
     font-weight: 700; }
 
 .slider-text p {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.5;
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.8); }
+  color: #1b94b7; }
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
@@ -7946,7 +7956,7 @@ h1, h2, h3, h4, h5,
       content: '';
       width: 60px;
       height: 60px;
-      background: #ebecff;
+      /* background: #ebecff; */
       z-index: -1;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -7985,8 +7995,8 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
-    padding: 4em 0;
-    background: #6b76ff; }
+    padding: 4em 0; 
+    background-image: linear-gradient(to right, #1b94b7, #24b96a)}
   .ftco-section-parallax .heading-section-white h2 {
     font-weight: 400 !important; }
 
@@ -8094,7 +8104,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #222831;
+  background-image: linear-gradient(to right, #1b94b7, #24b96a);
   padding: 7em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
