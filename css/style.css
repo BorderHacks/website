@@ -7659,7 +7659,7 @@ h1, h2, h3, h4, h5,
     display: inline-block; }
 
 .bg-light {
-  background: #f8f9fa !important; }
+  background: #fff !important; }
 
 .bg-primary {
   background: rgb(25,140,201); }
