@@ -67,7 +67,7 @@ body {
   line-height: 1.5;
   color: black;
   text-align: left;
-  background-color: #fffafa !important;
+  background-color: #fff !important;
  }
 
 [tabindex="-1"]:focus {
